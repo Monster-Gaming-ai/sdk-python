@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "monstergaming"
+version = "0.1.0"
+description = "Official Python SDK for Monster Gaming — AI-powered game development platform"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Monster Gaming", email = "hello@monstergaming.ai" },
+]
+keywords = [
+    "ai",
+    "game-development",
+    "llm",
+    "unreal-engine",
+    "unity",
+    "godot",
+    "code-generation",
+    "monster-gaming",
+    "openai-compatible",
+    "gamedev",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "httpx>=0.25.0",
+]
+
+[project.urls]
+Homepage = "https://monstergaming.ai"
+Documentation = "https://monstergaming.ai/quickstart"
+Repository = "https://github.com/Monster-Gaming-ai/sdk-python"
+Issues = "https://github.com/Monster-Gaming-ai/sdk-python/issues"
+Changelog = "https://github.com/Monster-Gaming-ai/sdk-python/blob/main/CHANGELOG.md"
