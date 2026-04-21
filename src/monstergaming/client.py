@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: Apache-2.0
-# Copyright 2026 Luxedeum, LLC d/b/a Monster Gaming
-
 """Monster Gaming API client."""
 
 from __future__ import annotations
